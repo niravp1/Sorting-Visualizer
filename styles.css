@@ -1,0 +1,29 @@
+.bars {
+    width: 20px;
+    background-color: rgb(151, 168, 244);
+    border-top-left-radius: 6px;   /* round top-left corner */
+    border-top-right-radius: 6px;
+}
+
+#container {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  border: 1px solid #000000;
+  height: 90vh; 
+  justify-content: center;
+}
+
+#generateBtn {
+  position: absolute;
+  left: 50%
+}
+
+#resetBtn {
+  position: absolute;
+  right: 5%
+}
+
+#bubbleSort {
+  left: 35%
+}
